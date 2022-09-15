@@ -1,3 +1,3 @@
 # dekoralar-blog
-# dekoralar-blog
-# dekoralar-blog
+
+This is a blog application using React
