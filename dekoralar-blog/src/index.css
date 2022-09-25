@@ -7,18 +7,27 @@
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  padding: 20px 40px 20px 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  /* max-width: 1200px; */
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #11b4b7;
 }
 .navbar .links {
   margin-left: auto;
+  margin-right: 40px;
 }
 .navbar a {
   margin-left: 16px;
@@ -26,12 +35,23 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #11b4b7;
+}
+.all-articles {
+  margin-bottom: 30px;
+}
+.background {
+  background-image: url("https://img.freepik.com/free-vector/leafy-patterned-note-background-vector_53876-164246.jpg?w=1800&t=st=1664103347~exp=1664103947~hmac=e7ac301a8882f52e28d2add2394fadc57094c841007a9863f473af5e66308296");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 .content {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 100px;
+  text-align: center;
 }
 
 /* blog previews / list */
@@ -39,35 +59,74 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: white;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(245, 245, 244);
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
+  color: #11b4b7;
+  margin-top: 10px;
 }
 .blog-preview a {
   text-decoration: none;
 }
+.img-author {
+  display: flex;
+  align-items: center;
+}
+.img-author img {
+  max-width: 300px;
+  margin: 20px 30px 20px 20px;
+  border-radius: 10px;
+}
+.blog-list span {
+  font-weight: bold;
+}
 
 /* blog details page */
+.blog-details {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #11b4b7;
   margin-bottom: 10px;
+  text-align: center;
+}
+.blog-details p {
+  text-align: center;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #11b4b7;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.blog-details button:hover {
+  color: black;
+}
+.blog-details img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.blog-details span {
+  font-weight: bold;
+}
+.body-blog {
+  white-space: pre-line;
 }
 
 /* create new blog form */
@@ -82,7 +141,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #11b4b7;
   margin-bottom: 30px;
 }
 .create input,
@@ -96,10 +155,69 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #11b4b7;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.create button:hover {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding: 20px 0px 20px 20px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+  }
+  .navbar h1 {
+    font-size: 22px;
+    padding-right: 5px;
+  }
+  .navbar .links {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar a {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 0px 3px;
+  }
+  .background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .all-articles {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .content {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  .img-author img {
+    max-width: 150px;
+    margin: 10px 20px 10px 10px;
+    border-radius: 10px;
+  }
+  .blog-details {
+    margin-top: 80px;
+  }
+  .create {
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+  }
 }

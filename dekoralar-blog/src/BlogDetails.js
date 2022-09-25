@@ -25,8 +25,11 @@ const BlogDetails = () => {
       {blog && (
         <article>
           <h2>{blog.title}</h2>
-          <p>Written by {blog.author}</p>
-          <div>{blog.body}</div>
+          <p>
+            Written by <span>{blog.author}</span>
+          </p>
+          <img src={blog.image} alt="" />
+          <div className="body-blog">{blog.body}</div>
           <button onClick={handleClick}>Delete</button>
         </article>
       )}

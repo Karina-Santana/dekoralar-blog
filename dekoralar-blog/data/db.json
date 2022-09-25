@@ -1,16 +1,32 @@
 {
   "blogs": [
     {
-      "title": "First Blog",
-      "body": "lorem ipsum jfhgdskfjh kfjdksjfheskdf fkjshfks fkhgu kghrueoe ehkgrutehu fhdhbgjdbgjkdsgb vdjgd fkdjhgdk jh firueirelir fdkd e oijdl fdjh  kd lkh lfhek ekjhglkdjgldk",
-      "author": "mario",
+      "title": "Welcome to my blog! :)",
+      "image": "https://images.unsplash.com/photo-1546074177-ffdda98d214f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "body": "This blog was developed in React by Karina Santana.\nMy portfolio: https://karina-santana.github.io/portfolio/",
+      "author": "Karina Santana",
       "id": 1
     },
     {
-      "title": "Opening party party!",
-      "body": "lorem ipsum jfhgdskfjh kfjdksjfheskdf fkjshfks fkhgu kghrueoe ehkgrutehu fhdhbgjdbgjkdsgb vdjgd fkdjhgdk jh firueirelir fdkd e oijdl fdjh  kd lkh lfhek ekjhglkdjgldk",
-      "author": "yoshi",
+      "title": "Best Michael Scott Quotes",
+      "image": "https://s.studiobinder.com/wp-content/uploads/2020/07/Michael-Scott-Wayne-Gretzsky-Quotes.jpg.webp?resolution=1680,0.75&resolution=2560,2",
+      "body": "'Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.' \n\n 'Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject. So you know you are getting the best possible information.' \n\n 'Guess what, I have flaws. What are they? Oh, I don’t know. I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I’ll hit somebody with my car. So sue me.' \n\n 'If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.' \n\n 'I saved a life. My own. Am I a hero?… I really can’t say, but yes!' \n\n 'No, I’m not going to tell them about the downsizing. If a patient has cancer, you don’t tell them.' \n\n 'An office is not for dying. An office is a place for living life to the fullest, to the max, to… an office is a place where dreams come true.' \n\n 'Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked, but it’s not like this compulsive need to be liked, like my need to be praised.' \n\n 'Sometimes I’ll start a sentence, and I don’t even know where it’s going. I just hope I find it along the way.' \n\n 'Do I have a special someone? Well, yeah, of course. A bunch of ’em. My employees.' \n\n 'They say on your deathbed you never wish you spent more time at the office — but I will.' \n\n 'Make friends first, make sales second, make love third. In no particular order.' \n\n 'I love inside jokes. I hope to be a part of one someday.' \n\n 'I’m an early bird and a night owl. So I’m wise and have worms.' \n\n 'Well, it’s love at first sight. Actually, it was… no, it was when I heard her voice. It was love at first see with my ears.' \n\n 'The most sacred thing I do is care and provide for my workers, my family. I give them money. I give them food. Not directly, but through the money.' \n\n 'I wanna be married and have 100 kids so I can have 100 friends and no one can say ‘no’ to being my friend.' \n\n 'I feel like all my kids grew up and then they married each other. It’s every parent’s dream.' \n\n 'You know what they say ‘Fool me once, strike one, but fool me twice… strike three.' \n\n 'I know it’s illegal in Pennsylvania, but it’s for charity, and I consider myself a great philanderer.'",
+      "author": "Michael Scott",
       "id": 2
+    },
+    {
+      "title": "Dwight Schrute quotes to live by",
+      "image": "https://imgix.theurbanlist.com/content/general/an-idiots-guide-to-climate-change.jpg?auto=format,compress&w=740&h=486&fit=crop",
+      "body": "\"Whenever I'm about to do something, I think 'Would an idiot do that?' And if they would, I do not do that thing.\"\n\n\"Who is Justice Beaver?\"\n\n\"I love catching people in the act. That's why I always whip open doors.\"\n\n\"\"R' is among the most menacing of sounds. That's why they call it 'murder' and not 'mukduk'\"\n\n\"When someone smiles at me, all I see is a chimpanzee begging for its life.\"\n\n\"You better learn your rules. If you don't, you'll be eaten in your sleep.\"\n\n\"Why are all these people here? There's too many people on this earth. We need a new plague.\"\n\n\"In the end, the greatest snowball isn't a snowball at all. It's fear. Merry Christmas.\"\n\n\"All you need is love. False. The four basic human necessities are air, water, food, and shelter.\"\n\n\"I am ready to face any challenge that might be foolish enough to face me.\"\n\n\"To avoid illness, expose yourself to germs, enabling your immune system to develop antibodies. I don't know why everyone doesn't do this... Maybe they have something against living forever.\"\n\n\"In an ideal world I would have all ten fingers on my left hand and the right one would just be left for punching.\"\n\n\"Security in this office park is a joke. Last year I came to work with my spud-gun in a duffel bag. I sat at my desk all day with a rifle that shoots potatoes at 60 pounds per square inch. Can you imagine if I was deranged?\"\n\n\"I don't believe you, continue.\"\n\n\"I overslept. Damn rooster didn't crow.\"\n\n\"You couldn't handle my undivided attention.\"\n\n\"I saw 'Wedding Crashers' accidentally. I bought a ticket for 'Grizzly Man' and went into the wrong theater. After an hour, I figured I was in the wrong theater but I kept waiting. Cause that's the thing about bear attacks... they come when you least expect it.\"\n\n\"I am faster than 80% of all snakes\"",
+      "author": "Dwight Schrute",
+      "id": 3
+    },
+    {
+      "title": "Homer Simpson’s most hilariously hair-brained quotes",
+      "image": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/OOgTcp23xRHycNyLw2Zdyj0nrVKNWh.jpg",
+      "body": "“I’ve learned that life is one crushing defeat after another until you just wish Flanders was dead.”\n\n“A gun is not a weapon, it’s a tool, like a hammer or a screwdriver or an alligator.”\n\n“Weaseling out of things is important to learn; it’s what separates us from the animals… except the weasel.”\n\n“Operator! Give me the number for 911!”\n\n“If he’s so smart, how come he’s dead?”\n\n“Marge, you know it’s rude to talk when my mouth is full.”\n\n“My beer! You never had a chance to become my urine!”\n\n“Stupidity got us into this mess, and stupidity will get us out.”\n\n“Trying is the first step towards failure.”\n\n“Oh yeah, what are you gonna do? Release the dogs? Or the bees? Or the dogs with bees in their mouths and when they bark, they shoot bees at you?”",
+      "author": "Homer Simpson",
+      "id": 4
     }
   ]
 }

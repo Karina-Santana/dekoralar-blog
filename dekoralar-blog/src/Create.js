@@ -3,14 +3,15 @@ import { useHistory } from "react-router-dom";
 
 const Create = () => {
   const [title, setTitle] = useState("");
+  const [image, setImage] = useState("");
   const [body, setBody] = useState("");
-  const [author, setAuthor] = useState("mario");
+  const [author, setAuthor] = useState("Anonymous");
   const [isPending, setIsPending] = useState(false);
   const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const blog = { title, body, author };
+    const blog = { title, image, body, author };
 
     setIsPending(true);
 
@@ -37,6 +38,13 @@ const Create = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
+        <label>Article image url:</label>
+        <input
+          type="text"
+          required
+          value={image}
+          onChange={(e) => setImage(e.target.value)}
+        />
         <label>Article body:</label>
         <textarea
           required
@@ -45,8 +53,10 @@ const Create = () => {
         ></textarea>
         <label>Article author:</label>
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-          <option value="mario">mario</option>
-          <option value="yoshi">yoshi</option>
+          <option value="Anonymous">Anonymous</option>
+          <option value="Michael Scott">Michael Scott</option>
+          <option value="Dwight Schrute">Dwight Schrute</option>
+          <option value="Homer Simpson">Homer Simpson</option>
         </select>
         {!isPending && <button>Add Article</button>}
         {isPending && <button disabled>Adding article...</button>}
