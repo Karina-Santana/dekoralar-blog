@@ -27,10 +27,10 @@ function App() {
               </Route>
             </Switch>
           </div>
-          <footer>
-            <p>Created by Karina Santana</p>
-          </footer>
         </div>
+        <footer>
+          <p>Created by Karina Santana</p>
+        </footer>
       </div>
     </Router>
   );
